@@ -1,7 +1,7 @@
 package org.interlis2.validator;
 
 import java.io.File;
-import org.interlis2.validator.gui.MainFrame;
+//import org.interlis2.validator.gui.MainFrame;
 import ch.ehi.basics.logging.EhiLogger;
 import ch.ehi.basics.settings.Settings;
 
@@ -43,8 +43,8 @@ public class Main {
 		if(args.length==0){
 			xtfFile=new String[0];
 			readSettings(settings);
-			MainFrame.main(xtfFile,settings);
-			return;
+//			MainFrame.main(xtfFile,settings);
+//			return;
 		}
 		int argi=0;
 		int function=FC_VALIDATE;
@@ -55,7 +55,8 @@ public class Main {
 				EhiLogger.getInstance().setTraceFilter(false);
 			}else if(arg.equals("--gui")){
 				readSettings(settings);
-				doGui=true;
+//                doGui=true;
+                doGui=false;
 			}else if(arg.equals("--models")){
 				argi++;
 				settings.setValue(Validator.SETTING_MODELNAMES, args[argi]);
@@ -163,7 +164,7 @@ public class Main {
 			if(dataFileCount>0) {
 				xtfFile = getDataFiles(args, argi, dataFileCount);
 			}
-			MainFrame.main(xtfFile,settings);
+//			MainFrame.main(xtfFile,settings);
 		}else{
             xtfFile = getDataFiles(args, argi, dataFileCount);
             boolean ok=false;
