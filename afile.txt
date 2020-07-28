@@ -1,0 +1,7 @@
+Start: 1595947270143
+After validateInconsistentIliAndXMLVersion: 1595947270143
+After uniquenessOfBid.clear(): 1595947270143
+After validateBasketEven (itf0): 1595947270147
+After validateBasketEven (itf1): 1595947270548
+After validateBasketEven (itf2): 1595947270564
+After validateBasketEven (itf3): 1595947271891

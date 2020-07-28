@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+<HEADERSECTION SENDER="ilivalidator-1.11.7-SNAPSHOT-38c425f10ba964efae480fd76444102900eb8c2d" VERSION="2.3"><MODELS><MODEL NAME="IliVErrors" VERSION="2016-06-10" URI="mailto:ceis@localhost"></MODEL></MODELS></HEADERSECTION>
+<DATASECTION>
+<IliVErrors.ErrorLog BID="b1">
+<IliVErrors.ErrorLog.Error TID="o1"><Message>ilivalidator-1.11.7-SNAPSHOT-38c425f10ba964efae480fd76444102900eb8c2d</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:145)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o2"><Message>ili2c-5.1.2-SNAPSHOT-97914a53f2531935c00200b0e960e78bbaef6b4b</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:146)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o3"><Message>iox-ili-1.21.1-SNAPSHOT-6aef46b9c61eaead8cd51752421cad7d962d3163</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:147)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o4"><Message>User &lt;stefan&gt;</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:148)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o5"><Message>Start date 2020-07-28 16:24</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:151)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o6"><Message>maxMemory 466432 KB</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:152)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o7"><Message>dataFile &lt;test/data/Beispiel4a.xtf&gt;</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:154)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o8"><Message>modeldir &lt;%ITF_DIR;http://models.interlis.ch/;%JAR_DIR/ilimodels&gt;</Message><Type>Info</Type><TechDetails>compileIli():  (Validator.java:410)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o9"><Message>uri &lt;/Users/stefan/sources/ilivalidator-benchmark/ilivalidator-graal/test/data&gt;</Message><Type>DetailInfo</Type><TechDetails>setRepositories():  (IliManager.java:86)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o10"><Message>uri &lt;http://models.interlis.ch/&gt;</Message><Type>DetailInfo</Type><TechDetails>setRepositories():  (IliManager.java:86)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o11"><Message>lookup model &lt;Beispiel4&gt; 2.3 in repository &lt;/Users/stefan/sources/ilivalidator-benchmark/ilivalidator-graal/test/data/&gt;</Message><Type>Info</Type><TechDetails>logRepositoryScan():  (ModelFinder.java:26)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o12"><Message>scan ili-files in folder &lt;/Users/stefan/sources/ilivalidator-benchmark/ilivalidator-graal/test/data/&gt;...</Message><Type>DetailInfo</Type><TechDetails>getIliFiles():  (RepositoryAccess.java:101)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o13"><Message>ilifile &lt;/Users/stefan/sources/ilivalidator-benchmark/ilivalidator-graal/test/data/Beispiel4.ili&gt;</Message><Type>Info</Type><TechDetails>logIliFiles():  (Main.java:1045)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o14"><Message>validate data...</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:226)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o15"><Message>modelele &lt;Beispiel4.Bodenbedeckung.GebaeudeArt.Constraint1&gt;, param &lt;msg&gt;, value &lt;Beschreibung fehlt (äöü)&gt;</Message><Type>DetailInfo</Type><TechDetails>setConfigValue():  (ValidationConfig.java:149)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o16"><Message>modelele &lt;PARAMETER&gt;, param &lt;allowOnlyMultiplicityReduction&gt;, value &lt;null&gt;</Message><Type>DetailInfo</Type><TechDetails>setConfigValue():  (ValidationConfig.java:149)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o17"><Message>modelele &lt;PARAMETER&gt;, param &lt;allObjectsAccessible&gt;, value &lt;null&gt;</Message><Type>DetailInfo</Type><TechDetails>setConfigValue():  (ValidationConfig.java:149)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o18"><Message>assume unknown external objects</Message><Type>Info</Type><TechDetails>&lt;init&gt;():  (Validator.java:246)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o19"><Message>first validation pass...</Message><Type>Info</Type><DataSource>test/data/Beispiel4a.xtf</DataSource><TechDetails>validate():  (Validator.java:341)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o20"><Message>second validation pass...</Message><Type>Info</Type><DataSource>test/data/Beispiel4a.xtf</DataSource><TechDetails>doSecondPass():  (Validator.java:518)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o21"><Message>validate mandatory constraint Beispiel4.Bodenbedeckung.GebaeudeArt.Constraint1...</Message><Type>Info</Type><DataSource>test/data/Beispiel4a.xtf</DataSource><TechDetails>validateMandatoryConstraint():  (Validator.java:1197)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o22"><Message>Beschreibung fehlt (äöü)</Message><Type>Error</Type><ObjTag>Beispiel4.Bodenbedeckung.GebaeudeArt</ObjTag><Tid>fail1</Tid><DataSource>test/data/Beispiel4a.xtf</DataSource><Line>9</Line><TechDetails>logMsg():  (Validator.java:4126)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o23"><Message>test/data/Beispiel4a.xtf: Beispiel4.Bodenbedeckung BID=b1</Message><Type>Info</Type><TechDetails>write2logger():  (IoxStatistics.java:72)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o24"><Message>      2 objects in CLASS Beispiel4.Bodenbedeckung.GebaeudeArt</Message><Type>Info</Type><TechDetails>write2logger():  (IoxStatistics.java:90)</TechDetails></IliVErrors.ErrorLog.Error>
+<IliVErrors.ErrorLog.Error TID="o25"><Message>...validation failed</Message><Type>Info</Type><TechDetails>validate():  (Validator.java:293)</TechDetails></IliVErrors.ErrorLog.Error>
+</IliVErrors.ErrorLog>
+</DATASECTION>
+</TRANSFER>
