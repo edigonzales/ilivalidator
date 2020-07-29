@@ -2,6 +2,9 @@ package org.interlis2.validator;
 
 import java.io.File;
 import org.interlis2.validator.gui.MainFrame;
+
+import com.formdev.flatlaf.FlatLightLaf;
+
 import ch.ehi.basics.logging.EhiLogger;
 import ch.ehi.basics.settings.Settings;
 
@@ -27,6 +30,8 @@ public class Main {
 	 * @param args command line arguments.
 	 */
 	static public void main(String args[]){
+	    FlatLightLaf.install();
+
 		Settings settings=new Settings();
 		settings.setValue(Validator.SETTING_ILIDIRS, Validator.SETTING_DEFAULT_ILIDIRS);
 		String appHome=getAppHome();

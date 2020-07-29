@@ -3,8 +3,8 @@ allprojects {
 	apply plugin: "java"
 	apply plugin: "maven"
 	
-	sourceCompatibility = "1.6" 
-	targetCompatibility = "1.6"
+	sourceCompatibility = "1.8" 
+	targetCompatibility = "1.8"
 }
 
 version '1.11.7'+System.getProperty('release','-SNAPSHOT')
@@ -25,6 +25,8 @@ dependencies {
     compile group: 'ch.interlis', name: 'iox-ili', version: '1.21.0'
     compile group: 'ch.interlis', name: 'ili2c-tool', version: "5.1.2+"
     compile group: 'ch.interlis', name: 'ili2c-core', version: "5.1.2+"
+    compile group: 'com.formdev', name: 'flatlaf', version: '0.38'
+    
     testCompile group: 'junit', name: 'junit', version: '4.12'
     deployerJars "org.apache.maven.wagon:wagon-ftp:3.3.3"
     deployerJars "org.apache.maven.wagon:wagon-ssh:3.3.3"
@@ -37,6 +39,7 @@ dependencies {
 repositories {
 	mavenLocal()
 	mavenCentral()
+	jcenter()
     maven {
         url "http://jars.interlis.ch"
     }

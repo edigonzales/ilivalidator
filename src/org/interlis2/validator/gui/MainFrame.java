@@ -197,29 +197,35 @@ public class MainFrame extends JFrame {
 			// row 0
 			xtfFileLabelConstraints.gridx = 0;
 			xtfFileLabelConstraints.gridy = 0;
+			xtfFileLabelConstraints.insets = new Insets(5, 5, 5, 5);
 			xtfFileLabelConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
 			xtfFileUiConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
 			xtfFileUiConstraints.weightx = 1.0;
 			xtfFileUiConstraints.gridx = 1;
 			xtfFileUiConstraints.gridy = 0;
+			xtfFileUiConstraints.insets = new Insets(5, 5, 5, 5);
 			xtfFileUiConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
 			doXtfFileSelBtnConstraints.gridx = 2;
 			doXtfFileSelBtnConstraints.gridy = 0;
+			doXtfFileSelBtnConstraints.insets = new Insets(5, 5, 5, 5);
 			doXtfFileSelBtnConstraints.anchor = java.awt.GridBagConstraints.WEST;
 			
 			// row 1
 			allObjectsAccessibleConstraints.gridx = 1;
 			allObjectsAccessibleConstraints.gridy = 1;
+			allObjectsAccessibleConstraints.insets = new Insets(0, 5, 5, 5);
 			allObjectsAccessibleConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
 			
 			// row 2
 			modelNamesLabelConstraints.gridx = 0;
 			modelNamesLabelConstraints.gridy = 2;
+			modelNamesLabelConstraints.insets = new Insets(5, 5, 5, 5);			
 			modelNamesLabelConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
 			modelNamesUiConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
 			modelNamesUiConstraints.weightx = 1.0;
 			modelNamesUiConstraints.gridx = 1;
 			modelNamesUiConstraints.gridy = 2;
+			modelNamesUiConstraints.insets = new Insets(5, 5, 5, 5);         			
 			modelNamesUiConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
 			
 			// row 3
